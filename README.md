@@ -59,7 +59,7 @@ To run **Electra** locally on your machine, follow these steps:
 
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/your-username/Electra-E-voting-system.git
+git clone https://github.com/preethu2896/Electra-E-voting-system.git
 ```
 *(Or simply download the ZIP file and extract it.)*
 
