@@ -1,74 +1,100 @@
-# Electra-E-voting-system
+<div align="center">
+  <h1>🗳️ Electra - E-Voting System</h1>
+  <p>A secure, intuitive, and modern online voting web application.</p>
 
-Welcome to the Voter Online Web Application. This web application is designed to facilitate online voting. It is built using HTML, CSS, JavaScript, PHP, and MySQL, and it runs on the XAMPP server. Below is the detailed information on how to set up and use this application.
-![Screenshot 2024-12-04 215916](https://github.com/user-attachments/assets/3042db4e-db16-4079-ac75-d78d5ac45255)
+  <!-- Badges -->
+  <p>
+    <img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
+    <img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
+    <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+    <img alt="PHP" src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white"/>
+    <img alt="MySQL" src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"/>
+  </p>
+</div>
 
-## Table of Contents
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
-- [Usage](#usage)
-- [Folder Structure](#folder-structure)
+<br/>
 
-## Features
-- User registration and authentication
-- Candidate registration
-- Voting system with secure vote submission
-- Admin panel for managing users and candidates
-- Real-time vote counting and results display
+Welcome to **Electra**, an online voting web application designed to facilitate secure and seamless digital voting. Built with a robust stack of HTML, CSS, JavaScript, PHP, and MySQL, this system is engineered to run efficiently on local servers like XAMPP.
 
-## Technologies Used
-- **HTML**: Structure of the web pages
-- **CSS**: Styling of the web pages
-- **JavaScript**: Client-side scripting
-- **PHP**: Server-side scripting
-- **MySQL**: Database management
-- **XAMPP**: Local server environment
+## 📸 Screenshots
 
-## Setup Instructions
-To set up the Voter Online Web Application on your local machine, follow these steps:
+| **Landing Page** | **Registeration** |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/3042db4e-db16-4079-ac75-d78d5ac45255" alt="Landing Page" width="100%"/> | <img src="https://github.com/user-attachments/assets/5ee076a5-79dd-4450-a01a-7e178a991bc6" alt="Registeration" width="100%"/> |
+| **Login Page** | **Voting Interface** |
+| <img src="https://github.com/user-attachments/assets/aacb301c-c655-4035-ac8a-c6d5656750d5" alt="Login Page" width="100%"/> | <img src="https://github.com/user-attachments/assets/74bfe455-3978-4806-bf99-b0aadd66c663" alt="Voting Interface" width="100%"/> |
+| **Results** | **Database** |
+|<img src="https://github.com/user-attachments/assets/232f1846-4cb2-4e7a-8b09-6df786e493eb" alt="Results" width="100%"/> | <img src="https://github.com/user-attachments/assets/ce853fdb-4b55-4b45-95df-1465c7685dd9" alt="Database" width="100%"/> | 
 
-1. **Download and Install XAMPP**:
-   - Download XAMPP from [Apache Friends](https://www.apachefriends.org/index.html).
-   - Install XAMPP on your local machine.
+---
 
-2. **Clone the Repository**:
-   - Clone this repository to your local machine or download the zip file and extract it.
+## 📑 Table of Contents
+- [✨ Features](#-features)
+- [🛠️ Technologies Used](#️-technologies-used)
+- [🚀 Setup Instructions](#-setup-instructions)
+- [📖 Usage](#-usage)
+- [📂 Folder Structure](#-folder-structure)
 
-3. **Copy Files to XAMPP Directory**:
-   - Copy the application files to the `htdocs` directory inside your XAMPP installation folder (e.g., `C:\xampp\htdocs\`).
+---
 
-4. **Start XAMPP**:
-   - Open the XAMPP Control Panel.
-   - Start the Apache and MySQL modules.
+## ✨ Features
+- 🔐 **User Registration & Authentication:** Secure sign-up and login mechanisms.
+- 👤 **Candidate Registration:** Easy onboarding for election candidates.
+- 🗳️ **Secure Voting System:** Reliable vote casting with submission integrity.
+- ⚙️ **Admin Panel:** Comprehensive dashboard for managing users and candidates.
+- 📊 **Real-time Results:** Live vote counting and transparent results display.
 
-5. **Create Database**:
-   - Open your web browser and go to `http://localhost/phpmyadmin`.
-   - Create a new database named `voteronline`.
-   - Import the SQL file provided in the `database` folder of this repository to set up the necessary tables.
+## 🛠️ Technologies Used
+- **Frontend:** HTML5, CSS3, JavaScript
+- **Backend:** PHP
+- **Database:** MySQL
+- **Environment:** XAMPP (Local Server)
 
-6. **Configure Database Connection**:
-   - Open the `config.php` file in the project directory.
-   - Update the database credentials (hostname, username, password, database name) to match your local setup.
+## 🚀 Setup Instructions
 
-## Usage
-1. **Access the Application**:
-   - Open your web browser and navigate to `http://localhost/voteronline`.
+To run **Electra** locally on your machine, follow these steps:
 
-2. **User Registration and Login**:
-   - Register a new user account or log in using existing credentials.
+### 1. Prerequisites
+- Download and install [XAMPP](https://www.apachefriends.org/index.html).
 
-3. **Admin Panel**:
-   - Access the admin panel to manage users and candidates by logging in as an admin.
+### 2. Clone the Repository
+```bash
+git clone https://github.com/your-username/Electra-E-voting-system.git
+```
+*(Or simply download the ZIP file and extract it.)*
 
-4. **Voting**:
-   - Registered users can view the list of candidates and cast their votes.
+### 3. Move Files
+- Move the extracted/cloned folder to your XAMPP `htdocs` directory.
+- Example: `C:\xampp\htdocs\voteronline\`
 
-5. **View Results**:
-   - Admin can view real-time voting results on the results page.
+### 4. Start Local Server
+- Open the **XAMPP Control Panel**.
+- Start the **Apache** and **MySQL** modules.
 
-## Folder Structure
+### 5. Database Setup
+- Open your browser and navigate to [http://localhost/phpmyadmin](http://localhost/phpmyadmin).
+- Create a new database named `voteronline`.
+- Import the provided SQL file (located in the `database` folder) into the `voteronline` database to generate the required tables.
+
+### 6. Configure Connection
+- Locate the configuration file in the project (e.g., `api/connect.php` or `config.php`).
+- Ensure the database credentials match your local MySQL configuration:
+  - **Hostname:** `localhost`
+  - **Username:** `root`
+  - **Password:** *(empty by default)*
+  - **Database:** `voteronline`
+
+## 📖 Usage
+
+1. **Access the App:** Open your browser and go to `http://localhost/voteronline` (adjust based on your folder name in `htdocs`).
+2. **Register/Login:** Create a new voter account or log in with existing credentials.
+3. **Admin Controls:** Log in with admin credentials to manage users and candidates.
+4. **Cast Vote:** Registered users can browse candidates and securely cast their vote.
+5. **Monitor Results:** Admins can view real-time aggregated voting data on the results page.
+
+## 📂 Folder Structure
 - `css/`: Contains CSS files for styling the web pages.
 - `js/`: Contains JavaScript files for client-side scripting.
-- `api/`: Contains PHP files for server-side logic.
-- `connect.php`: Configuration file for database connection.
+- `api/`: Contains PHP files for server-side logic and database connection.
+- `routes/`: Frontend or backend routing endpoints.
+- `uploads/`: Directory for uploaded images or files.
